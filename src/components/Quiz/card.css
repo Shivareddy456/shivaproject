@@ -1,0 +1,52 @@
+/* Style the card container */
+.card {
+  width: 300px;
+  background-color:black;
+  color: black;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  margin: 20px;
+  overflow: hidden;
+}
+.cardcontent{
+  background-color: blue;
+  color: aqua;
+}
+/* Style the card image */
+.card img {
+  width: 100%;
+  height: auto;
+}
+
+/* Style the card content */
+.card-content {
+  padding: 20px;
+}
+
+/* Style the card title */
+.card-content h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+/* Style the card text */
+.card-content p {
+  font-size: 16px;
+  color: #333;
+}
+
+/* Style the read more link */
+.card-content a {
+  margin-top: auto;
+  padding: 5px 10px;
+  border: 1px solid #000;
+  border-Radius: 5px;
+  background: blue;
+  color: white;
+}
+/* Hover effect for the card */
+.card:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  transform: scale(1.05);
+  transition: all 0.3s ease;
+}

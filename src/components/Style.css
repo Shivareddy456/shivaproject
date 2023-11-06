@@ -1,0 +1,7 @@
+/* styles.css */
+
+.option:hover {
+    background-color: #e0e0e0; /* Change the background color on hover */
+    cursor: pointer; /* Change cursor to pointer on hover */
+  }
+  
